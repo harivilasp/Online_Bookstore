@@ -28,20 +28,28 @@ Search Book
 Add to Cart book
 Payment at delivery.
 
-Installation/Configuration/Execution Steps
-Download Online Book Store Project
-Unzip the Downloaded Project
-Import in Netbeans 
-Build the Project
-Run the project
-<b>Database Configuration</b>
+<h3>Installation/Configuration/Execution Steps</h3>
+<ul>
+  <li>Download Online Book Store Project</li>
+  <li>Unzip the Downloaded Project</li>
+  <li>Import in Netbeans </li>
+  <li>Do Required Database Configuration</li>
+  <li>Build the Project</li>
+  <li>Run the project</li>
+</ul>
+<h3>Database Configuration</h3>
 Create a new database named “book_store”
 Import “book_store.sql” file from database folder(See in downloaded folder)
-<b>Admin Login Details</b>
+<h3>Admin Login Details</h3>
 Use the Same Login Form(Given on left Sidebar on front Page)
 Username: admin
 Password: admin
-<b>Software Requirements</b>
-Apache Tomacat 8.0 and above
-NetBeans or Eclipse or any suitable IDE
-<h4>You are Most Welcome to open PR</h4>
+
+<h3>Software Requirements</h3>
+<ul>
+  <li>Apache Tomacat 8.0 and above</li>
+  <li>NetBeans or Eclipse or any suitable IDE</li>
+  <li>My SQL Server </li>
+  <li>MySQL JDBC Driver</li>
+  </ul>
+<h5>You are Most Welcome to open PR</h5>
