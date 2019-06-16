@@ -1,0 +1,20 @@
+<%
+if(session==null)
+{
+    response.sendRedirect("login.jsp");
+}
+else
+{
+    try
+    {
+        session.removeAttribute("email");
+        session.removeAttribute("usertype");
+        session.invalidate();
+        response.sendRedirect("login.jsp");
+    }
+    catch(Exception e)
+    {
+        response.sendRedirect("login.jsp");
+    }
+}
+%>
